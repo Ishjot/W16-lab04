@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.w16.drawings.pconrad;
+package edu.ucsb.cs56.w16.drawings.sashashams;
 
 import javax.swing.*;
 
@@ -7,8 +7,8 @@ import javax.swing.*;
     
     @author Head First Java, 2nd Edition p. 355
     @author P. Conrad (who only typed it in and added the Javadoc comments)
-    @author Hunter Buckhorn
-    @version CS56, Spring 2013, UCSB
+    @author Sasha Shams 
+    @version CS56, Winter 2016, UCSB
 */
 
 public class SimpleGui1 {
@@ -20,9 +20,9 @@ public class SimpleGui1 {
     public static void main (String[] args) {
 	JFrame frame = new JFrame() ;
 	
-	JButton button = new JButton("Click me") ;
+	JButton button = new JButton("Hit me baby one more time") ;
 	
-	java.awt.Color myColor = new java.awt.Color(204,255,000);   // R, G, B values.
+	java.awt.Color myColor = new java.awt.Color(123,123,123);   // R, G, B values.
 	button.setBackground(myColor);
 	button.setOpaque(true);
 	
